@@ -74,7 +74,8 @@ transform: translateY (4px);
   justify-content: center;
 }
 /*section 3*/
-.section-three {
+.section-three{
+  background-color: #F5CBCF;
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
