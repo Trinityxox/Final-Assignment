@@ -73,13 +73,15 @@ transform: translateY (4px);
   align-items: center;
   justify-content: center;
 }
-/*section 3*/
+/*section 3  */
 .section-three{
   background-color: #F5CBCF;
+  height:500px;
+  align-items: center;
+  justify-content: center;
   display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  padding: 15px 25px 15px 15px;
+  /*flex-wrap: wrap;*/
+ /*padding: 15px 25px 15px 15px; */
 }
 
 .media-container .mediacontent {
@@ -90,21 +92,21 @@ transform: translateY (4px);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: navy;
   font-size: 20px;
-  align-items: right;
+  text-align: left;
 }
 
 /* section 4 embed audio */
+.section-four {
+  background-color: #F5CBCF;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
 figcaption {
   align-items: center;
   justify-content: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  display: flex;
-}
-.section-four {
-  background-color: #bf0426;
-  height: 500px;
-  align-items: center;
-  justify-content: center;
   display: flex;
 }
 
