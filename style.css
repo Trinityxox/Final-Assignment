@@ -63,8 +63,6 @@ transform: translateY (4px);
   justify-content: center;    
 }
 
- 
-
 
 /* section 2 text */
 .section-two {
@@ -75,7 +73,24 @@ transform: translateY (4px);
   align-items: center;
   justify-content: center;
 }
+/*section 3*/
+.section-three {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 15px 25px 15px 15px;
+}
 
+.media-container .mediacontent {
+  flex: 1;
+  padding: 10px;
+}
+.mediacontent{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: navy;
+  font-size: 20px;
+  align-items: right;
+}
 
 /* section 4 embed audio */
 figcaption {
@@ -99,23 +114,7 @@ figcaption {
 
 }
 
-.media-container {
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  padding: 15px 25px 15px 15px;
-}
 
-.media-container .mediacontent {
-  flex: 1;
-  padding: 10px;
-}
-.mediacontent{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: navy;
-  font-size: 20px;
-  align-items: right;
-}
 footer {
   background-color: #A8565E;
   height: 50px;
