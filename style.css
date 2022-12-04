@@ -90,6 +90,10 @@ button:hover {
   background-color: #D0E9F5;
   height: 700px;
   flex: 1 1 auto;
+  
+  align-items: center;
+  justify-content: center;  
+  
 
   font-family: 'komet';
 
@@ -104,14 +108,28 @@ button:hover {
   font-family: 'komet';
 }
 
+/* section 4 CARP */
+.section-three {
+  background-color: #F5CBCF;
+  height:500px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 15px 25px 15px 15px; 
+
+  font-family:'komet';
+  font-size: 16px;
+}
 /* codeing sheets section 3  */
-.section-three{
+.section-four{
   background-color: #F5CBCF;
   height:500px;
   align-items: center;
   justify-content: center;
   display: flex;
  padding: 15px 25px 15px 15px; 
+
+ font-family: 'komet';
 }
 
 .media-container .mediacontent {
@@ -125,18 +143,7 @@ button:hover {
   text-align: left;
 }
 
-/* section 4 CARP */
-.section-four {
-  background-color: #F5CBCF;
-  height:500px;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  padding: 15px 25px 15px 15px; 
 
-  font-family:'komet';
-  font-size: 16px;
-}
 /*figcaption {
   align-items: center;
   justify-content: center;
