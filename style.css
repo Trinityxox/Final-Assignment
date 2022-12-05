@@ -75,7 +75,7 @@ button:hover {
 }
 /*CARP */
 .carp-section-two{
-  background-color: #548CA8;
+  background-color: #D0E9F5;
   height: 150;
   display: flex;
   flex-wrap: wrap;
@@ -87,14 +87,13 @@ button:hover {
   text-align: center;
 }
 .box1 {
-  background-color: #D0E9F5;
+  background-color: #F5CBCF;
   height: 700px;
   flex: 1 1 auto;
   
   align-items: center;
   justify-content: center;  
   
-
   font-family: 'komet';
 
 }
