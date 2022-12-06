@@ -74,6 +74,7 @@ button:hover {
   text-align: center;
 }
 /*CARP */
+
 .carp-section-two{
   background-color: #D0E9F5;
   height: 150;
@@ -85,18 +86,44 @@ button:hover {
   font-family: 'Komet';
   font-size: 25px;
   text-align: center;
+  border: 1px solid blue;
 }
+
+
 .box1 {
   background-color: #F5CBCF;
   height: 700px;
-  flex: 1 1 auto;
+  display: flex;
+  flex-wrap: wrap;
+  /* flex: 1 1 auto; */
+  flex-direction: column;
   
   align-items: center;
   justify-content: center;  
   
   font-family: 'komet';
+  border: 1px solid green;
 
 }
+
+.poster1 {
+
+  width: 297px; 
+  height: 420px;
+  /* display: flex; */
+  /* align-items: center; */
+
+}
+
+.PosterTitle {
+
+  font-weight: bold;
+  color: purple;
+
+}
+
+
+
 
 /*.box2 {
 
@@ -114,19 +141,23 @@ button:hover {
   align-items: center;
   justify-content: center;
   display: flex;
+  ;
   padding: 15px 25px 15px 15px; 
 
   font-family:'komet';
   font-size: 16px;
 }
 /* codeing sheets section 3  */
+
+
 .section-four{
   background-color: #F5CBCF;
   height:500px;
-  align-items: center;
-  justify-content: center;
   display: flex;
- padding: 15px 25px 15px 15px; 
+  /* align-items: center; */
+  justify-content: center;
+  /* flex-direction: column; */
+  padding: 15px 25px 15px 15px; 
 
  font-family: 'komet';
 }
@@ -239,6 +270,7 @@ footer {
   align-items: center;
   font-size: 100px;
 }
+
 .slides>div:target{
 /*   transform: scale(0.8); */
 }
