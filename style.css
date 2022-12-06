@@ -86,27 +86,9 @@ button:hover {
   font-family: 'Komet';
   font-size: 25px;
   text-align: center;
-  border: 1px solid blue;
 }
 
-
-.box1 {
-  background-color: #F5CBCF;
-  height: 700px;
-  display: flex;
-  flex-wrap: wrap;
-  /* flex: 1 1 auto; */
-  flex-direction: column;
-  
-  align-items: center;
-  justify-content: center;  
-  
-  font-family: 'komet';
-  border: 1px solid green;
-
-}
-
-.poster1 {
+.poster-img{
 
   width: 297px; 
   height: 420px;
@@ -118,24 +100,47 @@ button:hover {
 .PosterTitle {
 
   font-weight: bold;
-  color: purple;
 
 }
 
+.box1 {
+  background-color: #F5CBCF;
+  height: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 
-
-
-/*.box2 {
-
-  background-color: #D0E9F5;
-  height: 600px;
-  flex: 1 1 auto;
-
+  align-items: center;
+  justify-content: center;  
   font-family: 'komet';
+  font-size: 20px;
 }
 
+
+.box2 {
+  background-color: #F5CBCF;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.box3 {
+  background-color: #F5CBCF;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  /* flex: 1 1 auto; */
+  flex-direction: column;
+  
+  align-items: left;
+  justify-content: center;  
+  
+  font-family: 'komet';
+  font-size: 20px;
+}
 /* section 4 CARP */
-.section-three {
+/* .section-three {
   background-color: #F5CBCF;
   height:500px;
   align-items: center;
@@ -146,7 +151,7 @@ button:hover {
 
   font-family:'komet';
   font-size: 16px;
-}
+} */
 /* codeing sheets section 3  */
 
 
@@ -154,9 +159,7 @@ button:hover {
   background-color: #F5CBCF;
   height:500px;
   display: flex;
-  /* align-items: center; */
   justify-content: center;
-  /* flex-direction: column; */
   padding: 15px 25px 15px 15px; 
 
  font-family: 'komet';
@@ -173,22 +176,6 @@ button:hover {
   text-align: left;
 }
 
-
-/*figcaption {
-  align-items: center;
-  justify-content: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  display: flex;
-}
-
-/* section 5 media items */
-
-.section-five {
-  background-color: #d95a11;
-
-}
-
-
 footer {
   background-color: #A8565E;
   height: 60px;
@@ -197,21 +184,6 @@ footer {
   font-size: small;
   color: white;
   padding: 10px 0px;
-}
-
-.more-one-section {
-  background-color: #bf0426;
-  padding: 20px 0px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.more-top-img {
-  border: 3px solid white;
-  border-radius: 10px;
-  box-shadow: 10px 10px 20px black;
-  width:70%;
 }
 
 /*slider*/
