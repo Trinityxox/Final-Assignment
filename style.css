@@ -103,6 +103,11 @@ button:hover {
 
 }
 
+.typ-img{
+  width:450px;
+  height:450px;
+}
+
 .box1 {
   background-color: #F5CBCF;
   height: 700px;
