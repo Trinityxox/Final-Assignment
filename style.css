@@ -55,7 +55,7 @@ button:hover {
   justify-content: center;    
 
   font-family: 'komet';
-  font-size: 40px;
+  font-size: 35px;
   text-align: center;
 }
 
@@ -84,7 +84,7 @@ button:hover {
   justify-content: center;
   
   font-family: 'Komet';
-  font-size: 25px;
+  font-size: 35px;
   text-align: center;
 }
 
@@ -108,6 +108,15 @@ button:hover {
   height:450px;
 }
 
+.section-four{
+  background-color: #F5CBCF;
+  height:500px;
+  display: flex;
+  justify-content: center;
+  padding: 15px 25px 15px 15px; 
+
+ font-family: 'komet';
+}
 .box1 {
   background-color: #F5CBCF;
   height: 700px;
@@ -144,30 +153,30 @@ button:hover {
   font-family: 'komet';
   font-size: 30px;
 }
-/* section 4 CARP */
-/* .section-three {
+
+.box4{
   background-color: #F5CBCF;
-  height:500px;
+  height: 1000px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
   align-items: center;
-  justify-content: center;
-  display: flex;
-  ;
-  padding: 15px 25px 15px 15px; 
+  justify-content: top;  
 
-  font-family:'komet';
-  font-size: 16px;
-} */
-/* codeing sheets section 3  */
-
-
-.section-four{
+}
+.box5{
   background-color: #F5CBCF;
-  height:500px;
+  height: 600px;
+  width: 100%;
   display: flex;
-  justify-content: center;
-  padding: 15px 25px 15px 15px; 
+  flex-wrap: wrap;
+  flex-direction: column;
 
- font-family: 'komet';
+  align-items: center;
+  justify-content: top;  
+
 }
 
 .media-container .mediacontent {
@@ -248,9 +257,9 @@ footer {
   font-size: 100px;
 }
 
-.slides>div:target{
-/*   transform: scale(0.8); */
-}
+/* .slides>div:target{
+  transform: scale(0.8);
+} */
 
 /*.slider > a {
   display: inline-flex;
@@ -276,5 +285,10 @@ footer {
 @supports (scroll-snap-type) {
   .slider > a {
     display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .column{
+    width: 100%;
   }
 }
