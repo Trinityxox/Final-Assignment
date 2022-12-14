@@ -205,6 +205,8 @@ footer {
 .RefPara{
   text-indent: 50px;
   text-align: left;
+  font-size: 20px;
+  padding: 20px;
 }
 
 /*slider*/
